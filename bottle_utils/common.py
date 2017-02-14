@@ -25,10 +25,10 @@ HTML_ESCAPE_MAPPING = ESCAPE_MAPPING + (
 )
 
 #: Whether Python version is 2.x
-PY2 = sys.version_info.major == 2
+PY2 = sys.version_info[0] == 2
 
 #: Whether Python version is 3.x
-PY3 = sys.version_info.major == 3
+PY3 = sys.version_info[0] == 3
 
 
 if PY3:
