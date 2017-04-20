@@ -1,4 +1,7 @@
-from collections import OrderedDict
+try:
+    from collections import OrderedDict
+except ImportError:
+    from ordereddict import OrderedDict
 
 try:
     from bottle_utils.i18n import lazy_gettext as _
