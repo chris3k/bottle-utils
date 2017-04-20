@@ -1,3 +1,4 @@
 bottle>=0.12.7
 python-dateutil>=2.2
 sphinx_rtd_theme
+ordereddict; python_version < '2.7'
